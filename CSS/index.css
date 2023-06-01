@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+div[id] {
+  scroll-margin-top: 57px;
+}
+
+.Home {
+  padding-top: 57px;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #000000, #333333);
+  background-size: 300%;
+  color: white;
+}
+.About {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #333333, #666666);
+  color: white;
+}
+.Services {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #666666, #999999);
+  color: white;
+}
+.Contact {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #999999, #ffffff);
+  color: white;
+}
